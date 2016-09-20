@@ -1,3 +1,5 @@
-$(document).ready(function () {
-    console.log('hello world');
-});
+var $ = require('jquery');
+
+var hello = require('./components/export');
+
+hello('World');
